@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1300px;
+    height: 100%;
+}
+
+.left-section {
+    flex: 1;
+    background-image: url('your-background-image.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.right-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 40px;
+}
+
+.sign-in-form {
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+}
+
+.sign-in-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.sign-in-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.remember-me {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.remember-me input {
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #3b8993;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+button:hover {
+    background-color: #2a595f;
+}
+
+.social-login {
+    margin-top: 15px;
+}
+
+.google-signin {
+    width: 100%;
+    padding: 12px;
+    background-color: #1d1d1d;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.google-signin:hover {
+    background-color: #0c0c0c;
+}
+
+.forgot-password {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0077b6;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.signup-link {
+    margin-top: 20px;
+    color: #666;
+}
+
+.signup-link a {
+    color: #0077b6;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
+
+.background {
+    background: url('background-pattern.jpg') no-repeat center center/cover;
+    height: 100%;
+}
